@@ -11,9 +11,15 @@
 |
 */
 
-$app = new Illuminate\Foundation\Application(
-    $_ENV['APP_BASE_PATH'] ?? dirname(__DIR__)
-);
+if (PHP_SAPI === 'cli') {
+    $app = new Lacora\Foundation\ConsoleApplication(
+        $_ENV['APP_BASE_PATH'] ?? dirname(__DIR__)
+    );
+} else {
+    $app = new Lacora\Foundation\Application(
+        $_ENV['APP_BASE_PATH'] ?? dirname(__DIR__)
+    );
+}
 
 /*
 |--------------------------------------------------------------------------

@@ -1,2 +1,2 @@
-# laura-cmf-project
-Laura (&amp;) is Laravel based CMF project
+# laura-project
+Laura (&amp;) is CMF based on Laravel
