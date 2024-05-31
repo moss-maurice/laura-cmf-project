@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "af291e678137ad7a0b3019b8ae168440",
+    "content-hash": "a2c3da018d53d858ec97d686f107bd3d",
     "packages": [
         {
             "name": "brick/math",
@@ -1885,19 +1885,20 @@
         },
         {
             "name": "mmaurice/lacora-support",
-            "version": "v0.0.1",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/moss-maurice/lacora-support.git",
-                "reference": "a81d9a9237b17f24c8016b89559bda3226471e84"
+                "reference": "dd32d641ccfa57ca2147da4ee10f53bbb9f3a37a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/moss-maurice/lacora-support/zipball/a81d9a9237b17f24c8016b89559bda3226471e84",
-                "reference": "a81d9a9237b17f24c8016b89559bda3226471e84",
+                "url": "https://api.github.com/repos/moss-maurice/lacora-support/zipball/dd32d641ccfa57ca2147da4ee10f53bbb9f3a37a",
+                "reference": "dd32d641ccfa57ca2147da4ee10f53bbb9f3a37a",
                 "shasum": ""
             },
             "require": {
+                "laravel/framework": "^10.10",
                 "php": "^8.1"
             },
             "type": "library",
@@ -1933,9 +1934,9 @@
             ],
             "support": {
                 "issues": "https://github.com/moss-maurice/lacora-support/issues",
-                "source": "https://github.com/moss-maurice/lacora-support/tree/v0.0.1"
+                "source": "https://github.com/moss-maurice/lacora-support/tree/develop"
             },
-            "time": "2024-05-31T13:20:42+00:00"
+            "time": "2024-05-31T20:57:57+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -8172,7 +8173,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "mmaurice/lacora-support": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
