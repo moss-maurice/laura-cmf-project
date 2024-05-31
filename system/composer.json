@@ -31,7 +31,8 @@
             "Database\\Seeders\\": "database/seeders/"
         },
         "classmap": [
-            "../modules"
+            "../modules",
+            "../plugins"
         ]
     },
     "autoload-dev": {

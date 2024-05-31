@@ -1889,12 +1889,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/moss-maurice/lacora-support.git",
-                "reference": "dd32d641ccfa57ca2147da4ee10f53bbb9f3a37a"
+                "reference": "9bba1074a6a18ccee72d96c4c073f19ed631117c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/moss-maurice/lacora-support/zipball/dd32d641ccfa57ca2147da4ee10f53bbb9f3a37a",
-                "reference": "dd32d641ccfa57ca2147da4ee10f53bbb9f3a37a",
+                "url": "https://api.github.com/repos/moss-maurice/lacora-support/zipball/9bba1074a6a18ccee72d96c4c073f19ed631117c",
+                "reference": "9bba1074a6a18ccee72d96c4c073f19ed631117c",
                 "shasum": ""
             },
             "require": {
@@ -1936,7 +1936,7 @@
                 "issues": "https://github.com/moss-maurice/lacora-support/issues",
                 "source": "https://github.com/moss-maurice/lacora-support/tree/develop"
             },
-            "time": "2024-05-31T20:57:57+00:00"
+            "time": "2024-05-31T21:21:56+00:00"
         },
         {
             "name": "monolog/monolog",
