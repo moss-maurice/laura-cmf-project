@@ -4,4 +4,8 @@ Welcome to blume module
     use Lacora\Events\ExampleEvent;
 
     event(new ExampleEvent);
+
+    dump(lacross()->name());
+
+    dump(lacross()->version());
 @endphp
